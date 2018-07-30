@@ -1,0 +1,21 @@
+{
+  "name": "@phts/eslint-config",
+  "version": "0.0.1",
+  "description": "My config for ESLint.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/phts/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Phil Tsarik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phts/eslint-config/issues"
+  },
+  "homepage": "https://github.com/phts/eslint-config#readme"
+}
