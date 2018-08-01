@@ -2,7 +2,7 @@ module.exports = {
   rules: {
     'accessor-pairs': 'error',
     'array-bracket-newline': 'off',
-    'array-bracket-spacing': 'off',
+    'array-bracket-spacing': 'error',
     'array-callback-return': 'off',
     'array-element-newline': 'off',
     'arrow-body-style': 'off',
@@ -258,7 +258,7 @@ module.exports = {
     'vars-on-top': 'off',
     'wrap-iife': 'error',
     'wrap-regex': 'off',
-    'yield-star-spacing': ['error', 'before' ],
+    'yield-star-spacing': ['error', 'before'],
     'yoda': 'error',
   },
 }
