@@ -218,7 +218,7 @@ module.exports = {
     'padded-blocks': ['error', 'never'],
     'padding-line-between-statements': 'off',
     'prefer-arrow-callback': 'off',
-    'prefer-const': 'off',
+    'prefer-const': 'error',
     'prefer-destructuring': 'off',
     'prefer-numeric-literals': 'off',
     'prefer-object-spread': 'off',
