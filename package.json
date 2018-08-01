@@ -4,6 +4,9 @@
   "description": "My config for ESLint.",
   "main": "index.js",
   "scripts": {},
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/phts/eslint-config.git"
