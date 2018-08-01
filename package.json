@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/phts/eslint-config/issues"
   },
-  "homepage": "https://github.com/phts/eslint-config#readme"
+  "homepage": "https://github.com/phts/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  }
 }
