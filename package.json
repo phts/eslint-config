@@ -15,7 +15,7 @@
     "eslint",
     "eslint-config"
   ],
-  "author": "Phil Tsarik",
+  "author": "Phil Tsaryk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/phts/eslint-config/issues"
