@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   rules: {
     'accessor-pairs': 'error',
@@ -246,7 +248,7 @@ module.exports = {
     'space-infix-ops': 'error',
     'space-unary-ops': 'error',
     'spaced-comment': 'error',
-    'strict': 'off',
+    'strict': 'error',
     'switch-colon-spacing': 'off',
     'symbol-description': 'off',
     'template-curly-spacing': 'error',
