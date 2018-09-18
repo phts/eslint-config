@@ -12,10 +12,10 @@ $ npm i -D @phts/eslint-config
 
 ## Usage
 
+`.eslintrc.json`:
+
 ```json
 {
-  "extends": [
-    "@phts"
-  ]
+  "extends": "@phts"
 }
 ```
