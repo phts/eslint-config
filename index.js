@@ -49,7 +49,7 @@ module.exports = {
     'indent': ['error', 2],
     'indent-legacy': 'off',
     'init-declarations': 'off',
-    'jsx-quotes': 'off',
+    'jsx-quotes': ['error', 'prefer-double'],
     'key-spacing': ['error',  {beforeColon: false, afterColon: true, mode: 'minimum'}],
     'keyword-spacing': 'error',
     'line-comment-position': 'off',
