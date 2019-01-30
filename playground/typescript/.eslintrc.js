@@ -2,7 +2,7 @@
 
 module.exports = {
   extends: [
-    './index',
+    '../../typescript',
   ].map(require.resolve),
 
   "parserOptions": {

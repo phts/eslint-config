@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ignore-pattern playground/*",
-    "lint-all": "eslint .",
+    "lint:all": "eslint --ext .js,.ts,.tsx .",
     "preversion": "npm run lint"
   },
   "peerDependencies": {
@@ -25,7 +25,14 @@
     "url": "https://github.com/phts/eslint-config/issues"
   },
   "homepage": "https://github.com/phts/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.1.1",
+    "@typescript-eslint/parser": "^1.1.1"
+  },
   "devDependencies": {
-    "eslint": "^5.2.0"
+    "@types/react": "^16.7.22",
+    "eslint": "^5.12.1",
+    "react": "^16.7.0",
+    "typescript": "^3.2.4"
   }
 }
