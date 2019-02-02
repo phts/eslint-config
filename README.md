@@ -65,3 +65,32 @@ SublimeText project:
   }
 }
 ```
+
+### Other addons
+
+<table>
+  <tr>
+    <td><code>@phts/eslint-config/addons/es6</code></td>
+    <td>Enable the latest features of EcmaScript</td>
+  </tr>
+  <tr>
+    <td><code>@phts/eslint-config/addons/esm</code></td>
+    <td>Enable ES-modules</td>
+  </tr>
+  <tr>
+    <td><code>@phts/eslint-config/addons/node</code></td>
+    <td>Enable Node.js environment</td>
+  </tr>
+  <tr>
+    <td><code>@phts/eslint-config/addons/typescript/jest</code></td>
+    <td>Enable <a href="https://jestjs.io/">jest</a> environment for <code>.test.ts[x]</code> files</td>
+  </tr>
+  <tr>
+    <td><code>@phts/eslint-config/addons/typescript/node</code></td>
+    <td>Enable Node.js environment for <code>.ts</code> files</td>
+  </tr>
+  <tr>
+    <td><code>@phts/eslint-config/addons/typescript/react</code></td>
+    <td>Enable support for <a href="https://reactjs.org/">react</a> for <code>.test.ts[x]</code> files. Using <a href="https://www.npmjs.com/package/eslint-plugin-react"><code>plugin:react/recommended</code></a> with modifications.</td>
+  </tr>
+</table>

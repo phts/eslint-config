@@ -3,14 +3,10 @@
 module.exports = {
   extends: [
     './index',
+    './addons/es6',
   ].map(require.resolve),
-
-  "parserOptions": {
-    "ecmaVersion": 2018,
-  },
 
   env: {
     node: true,
-    es6: true,
   },
 }

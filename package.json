@@ -27,7 +27,8 @@
   "homepage": "https://github.com/phts/eslint-config#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.1.1",
-    "@typescript-eslint/parser": "^1.1.1"
+    "@typescript-eslint/parser": "^1.1.1",
+    "eslint-plugin-react": "^7.12.4"
   },
   "devDependencies": {
     "@types/react": "^16.7.22",
