@@ -2,15 +2,6 @@
 
 module.exports = {
   extends: [
-    '../../typescript',
+    '../../addons/typescript',
   ].map(require.resolve),
-
-  "parserOptions": {
-    "ecmaVersion": 2018,
-  },
-
-  env: {
-    node: true,
-    es6: true,
-  },
 }

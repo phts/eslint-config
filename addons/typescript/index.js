@@ -1,24 +1,25 @@
 'use strict'
 
-const config = require('./index')
+const config = require('../../index')
 
 module.exports = {
-  ...config,
   overrides: [
     {
       files: '*.{ts,tsx}',
       parser: '@typescript-eslint/parser',
       parserOptions: {
-        ecmaFeatures: {
-          jsx: true,
-        },
-        useJSXTextNode: true,
+        ecmaVersion: 2018,
         project: './tsconfig.json',
         sourceType: 'module',
         tsconfigRootDir: '.',
       },
+      env: {
+        es6: true,
+      },
       plugins: ['@typescript-eslint'],
       rules: {
+        indent: 'off',
+        'no-extra-parens': 'off',
         'no-unused-vars': 'off',
 
         '@typescript-eslint/adjacent-overload-signatures': 'error',
@@ -66,6 +67,12 @@ module.exports = {
         '@typescript-eslint/prefer-namespace-keyword': 'error',
         '@typescript-eslint/restrict-plus-operands': 'error',
         '@typescript-eslint/type-annotation-spacing': 'error',
+      },
+    },
+    {
+      files: '*.d.ts',
+      rules: {
+        '@typescript-eslint/no-explicit-any': 'off',
       },
     },
   ],

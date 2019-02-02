@@ -31,7 +31,10 @@ and [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/type
 
 ```json
 {
-  "extends": "@phts/eslint-config/typescript"
+  "extends": [
+    "@phts",
+    "@phts/eslint-config/addons/typescript"
+  ]
 }
 ```
 
