@@ -1,23 +1,10 @@
 'use strict'
 
+const reactConfig = require('../react')
+
 module.exports = {
-  extends: [
-    'plugin:react/recommended',
-  ],
-
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
-
-  rules: {
-    'react/display-name': 'off',
-    'react/prop-types': 'off',
-  },
-
   overrides: [
-    {
+    Object.assign({}, reactConfig.overrides[0], {
       files: '*.{ts,tsx}',
       parserOptions: {
         ecmaFeatures: {
@@ -25,10 +12,6 @@ module.exports = {
         },
         useJSXTextNode: true,
       },
-      env: {
-        browser: true,
-        node: false,
-      },
-    },
+    }),
   ],
 }

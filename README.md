@@ -12,7 +12,7 @@ $ npm i -D @phts/eslint-config
 
 ## Usage
 
-### JavaScript
+### Basic rules
 
 `.eslintrc.json`:
 
@@ -78,12 +78,20 @@ SublimeText project:
     <td>Enable ES-modules</td>
   </tr>
   <tr>
+    <td><code>@phts/eslint-config/addons/jest</code></td>
+    <td>Enable <a href="https://jestjs.io/">jest</a> environment for <a href="https://jestjs.io/docs/en/configuration#testregex-string-array-string">test files</a></td>
+  </tr>
+  <tr>
     <td><code>@phts/eslint-config/addons/node</code></td>
     <td>Enable Node.js environment</td>
   </tr>
   <tr>
+    <td><code>@phts/eslint-config/addons/react</code></td>
+    <td>Enable support for <a href="https://reactjs.org/">react</a> for <code>.js[x]</code> files</td>
+  </tr>
+  <tr>
     <td><code>@phts/eslint-config/addons/typescript/jest</code></td>
-    <td>Enable <a href="https://jestjs.io/">jest</a> environment for <code>.test.ts[x]</code> files</td>
+    <td>Enable <a href="https://jestjs.io/">jest</a> environment for <a href="https://jestjs.io/docs/en/configuration#testregex-string-array-string">test files</a></td>
   </tr>
   <tr>
     <td><code>@phts/eslint-config/addons/typescript/node</code></td>
@@ -91,6 +99,6 @@ SublimeText project:
   </tr>
   <tr>
     <td><code>@phts/eslint-config/addons/typescript/react</code></td>
-    <td>Enable support for <a href="https://reactjs.org/">react</a> for <code>.test.ts[x]</code> files. Using <a href="https://www.npmjs.com/package/eslint-plugin-react"><code>plugin:react/recommended</code></a> with modifications.</td>
+    <td>Enable support for <a href="https://reactjs.org/">react</a> for <code>.ts[x]</code> files</td>
   </tr>
 </table>

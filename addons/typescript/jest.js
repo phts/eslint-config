@@ -1,12 +1,11 @@
 'use strict'
 
+const jestConfig = require('../jest')
+
 module.exports = {
   overrides: [
-    {
-      files: '*.test.{ts,tsx}',
-      env: {
-        jest: true,
-      },
-    },
+    Object.assign({}, jestConfig.overrides[0], {
+      files: ['**/__tests__/**/*.ts?(x)', '**/?(*.)+(spec|test).ts?(x)'],
+    }),
   ],
 }

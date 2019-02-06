@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ignore-pattern playground/*",
-    "lint:all": "eslint --ext .js,.ts,.tsx .",
+    "lint:all": "eslint --ext .js,.jsx,.ts,.tsx .",
     "preversion": "npm run lint"
   },
   "peerDependencies": {
@@ -28,9 +28,11 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.1.1",
     "@typescript-eslint/parser": "^1.1.1",
+    "eslint-plugin-jest": "^22.2.2",
     "eslint-plugin-react": "^7.12.4"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.0",
     "@types/react": "^16.7.22",
     "eslint": "^5.12.1",
     "react": "^16.7.0",
