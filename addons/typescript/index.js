@@ -37,7 +37,7 @@ module.exports = {
             delimiter: 'none',
           },
           singleline: {
-            delimiter: 'semi',
+            delimiter: 'comma',
             requireLast: false,
           },
         }],
