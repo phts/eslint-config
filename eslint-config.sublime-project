@@ -7,6 +7,7 @@
 	],
 	"settings":
 	{
+		"SublimeLinter.linters.eslint.args": ["--no-ignore"],
 		"SublimeLinter.linters.eslint.selector": "source.js, source.ts, source.tsx",
 		"SublimeLinter.linters.tslint.disable": true
 	}
