@@ -4,8 +4,8 @@
   "description": "My config for ESLint.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ignore-pattern playground/*",
-    "lint:all": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "lint": "eslint .",
+    "lint:all": "eslint --no-ignore --ext .js,.jsx,.ts,.tsx .",
     "preversion": "npm run lint"
   },
   "peerDependencies": {
