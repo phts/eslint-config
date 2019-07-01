@@ -1,8 +1,11 @@
 'use strict'
 
 module.exports = {
-  extends: 'eslint:recommended',
+  extends: ['eslint:recommended', 'plugin:eslint-comments/recommended'],
   rules: {
+    'eslint-comments/no-unused-disable': 'error',
+    'eslint-comments/disable-enable-pair': ['error', {allowWholeFile: true}],
+
     'accessor-pairs': 'error',
     'array-bracket-spacing': 'error',
     'brace-style': 'error',
