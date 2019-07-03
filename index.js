@@ -2,9 +2,25 @@
 
 module.exports = {
   extends: ['eslint:recommended', 'plugin:eslint-comments/recommended'],
+
+  plugins: ['import'],
+
   rules: {
     'eslint-comments/no-unused-disable': 'error',
     'eslint-comments/disable-enable-pair': ['error', {allowWholeFile: true}],
+
+    'import/export': 'error',
+    'import/first': ['error', 'absolute-first'],
+    'import/named': 'error',
+    'import/newline-after-import': 'error',
+    'import/no-absolute-path': 'error',
+    'import/no-cycle': 'error',
+    'import/no-duplicates': 'error',
+    'import/no-named-as-default': 'error',
+    'import/no-named-as-default-member': 'error',
+    'import/no-self-import': 'error',
+    'import/no-unresolved': 'error',
+    'import/no-useless-path-segments': 'error',
 
     'accessor-pairs': 'error',
     'array-bracket-spacing': 'error',
