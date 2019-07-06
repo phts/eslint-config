@@ -22,6 +22,8 @@ module.exports = {
         'no-extra-parens': 'off',
         'no-unused-vars': 'off',
 
+        'import/named': 'off',
+
         '@typescript-eslint/adjacent-overload-signatures': 'error',
         '@typescript-eslint/array-type':  ['error', 'array-simple'],
         '@typescript-eslint/ban-types': 'off',
