@@ -9,6 +9,7 @@ module.exports = {
         sourceType: 'script',
       },
       env: {
+        es6: true,
         node: true,
       },
     },
