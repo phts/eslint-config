@@ -23,7 +23,7 @@ module.exports = {
         'import/named': 'off',
 
         '@typescript-eslint/adjacent-overload-signatures': 'error',
-        '@typescript-eslint/array-type':  ['error', 'array-simple'],
+        '@typescript-eslint/array-type': ['error', 'array-simple'],
         '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/camelcase': config.rules.camelcase,
         '@typescript-eslint/class-name-casing': 'error',
@@ -32,15 +32,18 @@ module.exports = {
         '@typescript-eslint/generic-type-naming': 'off',
         '@typescript-eslint/indent': config.rules.indent,
         '@typescript-eslint/interface-name-prefix': 'off',
-        '@typescript-eslint/member-delimiter-style': ['error', {
-          multiline: {
-            delimiter: 'none',
+        '@typescript-eslint/member-delimiter-style': [
+          'error',
+          {
+            multiline: {
+              delimiter: 'none',
+            },
+            singleline: {
+              delimiter: 'comma',
+              requireLast: false,
+            },
           },
-          singleline: {
-            delimiter: 'comma',
-            requireLast: false,
-          },
-        }],
+        ],
         '@typescript-eslint/member-naming': 'off',
         '@typescript-eslint/member-ordering': 'error',
         '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
@@ -54,9 +57,12 @@ module.exports = {
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-object-literal-type-assertion': 'error',
         '@typescript-eslint/no-parameter-properties': 'off',
-        '@typescript-eslint/no-this-alias': ['error', {
-          allowDestructuring: true,
-        }],
+        '@typescript-eslint/no-this-alias': [
+          'error',
+          {
+            allowDestructuring: true,
+          },
+        ],
         '@typescript-eslint/no-triple-slash-reference': 'error',
         '@typescript-eslint/no-type-alias': 'off',
         '@typescript-eslint/no-unnecessary-type-assertion': 'off',

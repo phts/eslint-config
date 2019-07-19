@@ -22,6 +22,24 @@ $ npm i -D @phts/eslint-config
 }
 ```
 
+### Prettier
+
+```json
+{
+  "extends": ["@phts", "@phts/eslint-config/addons/prettier"]
+}
+```
+
+Enable support for Prettier via [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier) and [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier) for all `.js`, `.jsx`, `.ts`, `.tsx` files in the project.
+
+Prettier must be installed manually:
+
+```
+$ npm i -D prettier
+```
+
+Make sure to put this addon **last**, so it gets the chance to override other configs.
+
 ### TypeScript
 
 [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser)
@@ -31,10 +49,7 @@ and [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/type
 
 ```json
 {
-  "extends": [
-    "@phts",
-    "@phts/eslint-config/addons/typescript"
-  ]
+  "extends": ["@phts", "@phts/eslint-config/addons/typescript"]
 }
 ```
 
@@ -52,16 +67,14 @@ SublimeText project:
 
 ```json
 {
-  "folders":
-  [
+  "folders": [
     {
       "path": "."
     }
   ],
-  "settings":
-  {
-      "SublimeLinter.linters.eslint.selector": "source.js, source.ts, source.tsx",
-      "SublimeLinter.linters.tslint.disable": true
+  "settings": {
+    "SublimeLinter.linters.eslint.selector": "source.js, source.ts, source.tsx",
+    "SublimeLinter.linters.tslint.disable": true
   }
 }
 ```
