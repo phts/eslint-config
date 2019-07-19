@@ -3,7 +3,11 @@
 module.exports = {
   overrides: [
     {
-      files: ['**/__tests__/**/*.js?(x)', '**/?(*.)+(spec|test).js?(x)'],
+      files: [
+        '**/__tests__/**/*.js?(x)',
+        '**/?(*.)+(spec|test).js?(x)',
+        '**/__mocks__/**/*.js?(x)',
+      ],
       plugins: ['jest'],
       env: {
         jest: true,
