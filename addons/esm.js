@@ -3,7 +3,7 @@
 module.exports = {
   overrides: [
     {
-      files: '*.{js,jsx}',
+      files: 'src/**/*.js',
       parserOptions: {
         sourceType: 'module',
       },
