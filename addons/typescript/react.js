@@ -1,17 +1,20 @@
 'use strict'
 
-const reactConfig = require('../react')
+const reactConfig = require('../react').overrides[0]
 
 module.exports = {
   overrides: [
-    Object.assign({}, reactConfig.overrides[0], {
+    {
       files: 'src/**/*.{ts,tsx}',
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
         },
-        useJSXTextNode: true,
       },
-    }),
+      settings: reactConfig.settings,
+      plugins: reactConfig.plugins,
+      env: reactConfig.env,
+      rules: reactConfig.rules,
+    },
   ],
 }
