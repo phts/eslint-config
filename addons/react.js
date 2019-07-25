@@ -4,11 +4,12 @@ module.exports = {
   overrides: [
     {
       files: '*.{js,jsx}',
-      plugins: ['react'],
+      parser: 'babel-eslint',
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
         },
+        ecmaVersion: 2018,
         sourceType: 'module',
       },
       settings: {
@@ -16,8 +17,10 @@ module.exports = {
           version: 'detect',
         },
       },
+      plugins: ['react'],
       env: {
         browser: true,
+        es6: true,
       },
       rules: {
         'react/boolean-prop-naming': 'off',

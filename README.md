@@ -70,10 +70,6 @@ SublimeText project:
 
 <table>
   <tr>
-    <td><code>@phts/eslint-config/addons/es6</code></td>
-    <td>Enable the latest features of EcmaScript</td>
-  </tr>
-  <tr>
     <td><code>@phts/eslint-config/addons/esm</code></td>
     <td>Enable ES-modules</td>
   </tr>
