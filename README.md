@@ -70,12 +70,12 @@ SublimeText project:
 
 <table>
   <tr>
-    <td><code>@phts/eslint-config/addons/esm</code></td>
-    <td>Enable ES-modules</td>
-  </tr>
-  <tr>
     <td><code>@phts/eslint-config/addons/jest</code></td>
     <td>Enable <a href="https://jestjs.io/">jest</a> environment for <a href="https://jestjs.io/docs/en/configuration#testregex-string-array-string">test files</a></td>
+  </tr>
+  <tr>
+    <td><code>@phts/eslint-config/addons/module</code></td>
+    <td>Enable ES-modules</td>
   </tr>
   <tr>
     <td><code>@phts/eslint-config/addons/node</code></td>
