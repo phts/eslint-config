@@ -1,6 +1,4 @@
 'use strict'
 
-module.exports = {
-  // deprecated
-  ...require('./module'),
-}
+// deprecated
+module.exports = require('./module')
