@@ -2,7 +2,6 @@ playground/
 
 .*
 *.tgz
-*.sublime-project
-*.sublime-workspace
+*.sublime-*
 
 tsconfig.json
