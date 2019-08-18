@@ -4,6 +4,7 @@ exports[`addons/jest generates correct config for test and mock files 1`] = `
 Object {
   "env": Object {
     "jest": true,
+    "jest/globals": true,
   },
   "globals": Object {},
   "parser": null,
@@ -125,12 +126,6 @@ Object {
         "fn": "it",
       },
     ],
-    "jest/expect-expect": Array [
-      "off",
-    ],
-    "jest/lowercase-name": Array [
-      "off",
-    ],
     "jest/no-alias-methods": Array [
       "error",
     ],
@@ -146,9 +141,6 @@ Object {
     "jest/no-focused-tests": Array [
       "error",
     ],
-    "jest/no-hooks": Array [
-      "off",
-    ],
     "jest/no-identical-title": Array [
       "error",
     ],
@@ -158,38 +150,11 @@ Object {
     "jest/no-jest-import": Array [
       "error",
     ],
-    "jest/no-large-snapshots": Array [
-      "off",
-    ],
     "jest/no-mocks-import": Array [
       "error",
     ],
-    "jest/no-test-callback": Array [
-      "off",
-    ],
     "jest/no-test-prefixes": Array [
       "error",
-    ],
-    "jest/no-test-return-statement": Array [
-      "off",
-    ],
-    "jest/no-truthy-falsy": Array [
-      "off",
-    ],
-    "jest/prefer-called-with": Array [
-      "off",
-    ],
-    "jest/prefer-expect-assertions": Array [
-      "off",
-    ],
-    "jest/prefer-inline-snapshots": Array [
-      "off",
-    ],
-    "jest/prefer-spy-on": Array [
-      "off",
-    ],
-    "jest/prefer-strict-equal": Array [
-      "off",
     ],
     "jest/prefer-to-be-null": Array [
       "error",
@@ -202,12 +167,6 @@ Object {
     ],
     "jest/prefer-to-have-length": Array [
       "error",
-    ],
-    "jest/prefer-todo": Array [
-      "off",
-    ],
-    "jest/require-tothrow-message": Array [
-      "off",
     ],
     "jest/valid-describe": Array [
       "error",
