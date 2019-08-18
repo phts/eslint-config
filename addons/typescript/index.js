@@ -17,6 +17,7 @@ module.exports = {
       },
       plugins: ['@typescript-eslint'],
       rules: {
+        camelcase: 'off',
         indent: 'off',
         'no-extra-parens': 'off',
         'no-unused-vars': 'off',
