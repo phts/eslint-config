@@ -4,9 +4,7 @@ module.exports = {
   overrides: [
     {
       files: '*.ts',
-      env: {
-        node: true,
-      },
+      extends: require.resolve('../../rules/typescript/node'),
     },
   ],
 }
