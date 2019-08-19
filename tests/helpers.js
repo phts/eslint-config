@@ -1,5 +1,4 @@
 'use strict'
-/* global expect, it */
 
 const CLIEngine = require('eslint').CLIEngine
 
