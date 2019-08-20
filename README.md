@@ -83,39 +83,39 @@ SublimeText project:
 
 <table>
   <tr>
-    <td><code>@phts/eslint-config/addons/configs</code></td>
+    <td><code>configs</code></td>
     <td>Enable Node.js environment for all combinations of config files</td>
   </tr>
   <tr>
-    <td><code>@phts/eslint-config/addons/jest</code></td>
+    <td><code>jest</code></td>
     <td>Enable <a href="https://jestjs.io/">jest</a> environment for <a href="https://jestjs.io/docs/en/configuration#testregex-string-array-string">test files</a></td>
   </tr>
   <tr>
-    <td><code>@phts/eslint-config/addons/module</code></td>
-    <td>Enable ES-modules</td>
+    <td><code>module</code></td>
+    <td>Enable ES-modules for <code>.js</code> files in <code>src/</code> folder</td>
   </tr>
   <tr>
-    <td><code>@phts/eslint-config/addons/node</code></td>
-    <td>Enable Node.js environment</td>
+    <td><code>node</code></td>
+    <td>Enable Node.js environment for all <code>.js</code> files</td>
   </tr>
   <tr>
-    <td><code>@phts/eslint-config/addons/react</code></td>
-    <td>Enable support for <a href="https://reactjs.org/">react</a> for <code>.js[x]</code> files</td>
+    <td><code>react</code></td>
+    <td>Enable support for <a href="https://reactjs.org/">react</a> for <code>.js</code> and <code>.jsx</code> files in <code>src/</code> folder</td>
   </tr>
   <tr>
-    <td><code>@phts/eslint-config/addons/typescript/configs</code></td>
+    <td><code>typescript/configs</code></td>
     <td>Enable Node.js environment for all combinations of config files written in TypeScript</td>
   </tr>
   <tr>
-    <td><code>@phts/eslint-config/addons/typescript/jest</code></td>
+    <td><code>typescript/jest</code></td>
     <td>Enable <a href="https://jestjs.io/">jest</a> environment for <a href="https://jestjs.io/docs/en/configuration#testregex-string-array-string">test files</a></td>
   </tr>
   <tr>
-    <td><code>@phts/eslint-config/addons/typescript/node</code></td>
-    <td>Enable Node.js environment for <code>.ts</code> files</td>
+    <td><code>typescript/node</code></td>
+    <td>Enable Node.js environment for all <code>.ts</code> files</td>
   </tr>
   <tr>
-    <td><code>@phts/eslint-config/addons/typescript/react</code></td>
-    <td>Enable support for <a href="https://reactjs.org/">react</a> for <code>.ts[x]</code> files</td>
+    <td><code>typescript/react</code></td>
+    <td>Enable support for <a href="https://reactjs.org/">react</a> for <code>.ts</code> and <code>.tsx</code> files in <code>src/</code> folder</td>
   </tr>
 </table>
