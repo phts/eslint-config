@@ -83,6 +83,10 @@ SublimeText project:
 
 <table>
   <tr>
+    <td><code>@phts/eslint-config/addons/configs</code></td>
+    <td>Enable Node.js environment for all combinations of config files</td>
+  </tr>
+  <tr>
     <td><code>@phts/eslint-config/addons/jest</code></td>
     <td>Enable <a href="https://jestjs.io/">jest</a> environment for <a href="https://jestjs.io/docs/en/configuration#testregex-string-array-string">test files</a></td>
   </tr>
@@ -97,6 +101,10 @@ SublimeText project:
   <tr>
     <td><code>@phts/eslint-config/addons/react</code></td>
     <td>Enable support for <a href="https://reactjs.org/">react</a> for <code>.js[x]</code> files</td>
+  </tr>
+  <tr>
+    <td><code>@phts/eslint-config/addons/typescript/configs</code></td>
+    <td>Enable Node.js environment for all combinations of config files written in TypeScript</td>
   </tr>
   <tr>
     <td><code>@phts/eslint-config/addons/typescript/jest</code></td>
