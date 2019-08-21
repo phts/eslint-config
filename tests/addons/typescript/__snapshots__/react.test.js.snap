@@ -622,7 +622,7 @@ Object {
       0,
     ],
     "react/prop-types": Array [
-      2,
+      "off",
     ],
     "react/react-in-jsx-scope": Array [
       2,
