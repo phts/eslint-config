@@ -1,6 +1,6 @@
 'use strict'
 
-const config = require('../../index')
+const basic = require('../basic')
 
 module.exports = {
   parser: '@typescript-eslint/parser',
@@ -24,12 +24,12 @@ module.exports = {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
     '@typescript-eslint/array-type': ['error', 'array-simple'],
     '@typescript-eslint/ban-types': 'off',
-    '@typescript-eslint/camelcase': config.rules.camelcase,
+    '@typescript-eslint/camelcase': basic.rules.camelcase,
     '@typescript-eslint/class-name-casing': 'error',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
     '@typescript-eslint/generic-type-naming': 'off',
-    '@typescript-eslint/indent': config.rules.indent,
+    '@typescript-eslint/indent': basic.rules.indent,
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/member-delimiter-style': [
       'error',
