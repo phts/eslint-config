@@ -2,10 +2,16 @@
 
 exports[`addons/typescript/configs generates correct config for config files 1`] = `
 Object {
-  "env": Object {},
+  "env": Object {
+    "es6": true,
+    "node": true,
+  },
   "globals": Object {},
   "parser": null,
-  "parserOptions": Object {},
+  "parserOptions": Object {
+    "ecmaVersion": 2018,
+    "sourceType": "script",
+  },
   "plugins": Array [
     "eslint-comments",
     "import",
