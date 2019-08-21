@@ -1,6 +1,6 @@
 {
   "name": "@phts/eslint-config",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "My config for ESLint.",
   "main": "index.js",
   "scripts": {
