@@ -4,7 +4,7 @@ const helpers = require('../../helpers')
 
 describe('addons/typescript/configs', () => {
   helpers.itGeneratesCorrectConfig({
-    extends: ['index', 'addons/typescript/configs'],
+    extends: ['index', 'addons/typescript', 'addons/typescript/configs'],
     files: [
       'config/target.ts',
       'config/dir/target.ts',
