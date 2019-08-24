@@ -30,7 +30,7 @@ Object {
       "array-simple",
     ],
     "@typescript-eslint/ban-types": Array [
-      "off",
+      "error",
     ],
     "@typescript-eslint/camelcase": Array [
       "error",
@@ -67,10 +67,10 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-angle-bracket-type-assertion": Array [
-      "off",
+      "error",
     ],
     "@typescript-eslint/no-array-constructor": Array [
-      "off",
+      "error",
     ],
     "@typescript-eslint/no-empty-interface": Array [
       "off",
@@ -115,7 +115,7 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-var-requires": Array [
-      "off",
+      "error",
     ],
     "@typescript-eslint/prefer-interface": Array [
       "error",
@@ -319,7 +319,7 @@ Object {
       "error",
     ],
     "no-array-constructor": Array [
-      "error",
+      "off",
     ],
     "no-async-promise-executor": Array [
       "error",
