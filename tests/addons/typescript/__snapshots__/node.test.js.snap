@@ -7,6 +7,7 @@ Object {
     "node": true,
   },
   "globals": Object {},
+  "noInlineConfig": undefined,
   "parser": "node_modules/@typescript-eslint/parser/dist/parser.js",
   "parserOptions": Object {
     "project": "./tsconfig.json",

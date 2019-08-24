@@ -6,6 +6,7 @@ Object {
     "es6": true,
   },
   "globals": Object {},
+  "noInlineConfig": undefined,
   "parser": null,
   "parserOptions": Object {
     "sourceType": "module",

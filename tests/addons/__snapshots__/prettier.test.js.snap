@@ -4,6 +4,7 @@ exports[`addons/prettier generates correct config for *.{js,jsx,ts,tsx} files 1`
 Object {
   "env": Object {},
   "globals": Object {},
+  "noInlineConfig": undefined,
   "parser": null,
   "parserOptions": Object {},
   "plugins": Array [
@@ -102,6 +103,9 @@ Object {
       "error",
     ],
     "func-call-spacing": Array [
+      "off",
+    ],
+    "function-call-argument-newline": Array [
       "off",
     ],
     "function-paren-newline": Array [
