@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "lint:all": "eslint --no-ignore --ext .js,.jsx,.ts,.tsx .",
+    "lint:playground": "eslint --no-ignore --ext .js,.jsx,.ts,.tsx .",
     "preversion": "npm run lint && npm test",
     "test": "jest"
   },
