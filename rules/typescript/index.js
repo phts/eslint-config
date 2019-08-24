@@ -19,6 +19,7 @@ module.exports = {
     '@typescript-eslint/array-type': ['error', {default: 'array-simple'}],
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/camelcase': basic.rules.camelcase,
+    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
     '@typescript-eslint/consistent-type-assertions': [
@@ -51,9 +52,8 @@ module.exports = {
         allowDestructuring: true,
       },
     ],
-    '@typescript-eslint/no-triple-slash-reference': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/prefer-interface': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
+    '@typescript-eslint/triple-slash-reference': 'error',
   },
 }

@@ -50,6 +50,10 @@ Object {
         "objectLiteralTypeAssertions": "allow-as-parameter",
       },
     ],
+    "@typescript-eslint/consistent-type-definitions": Array [
+      "error",
+      "interface",
+    ],
     "@typescript-eslint/explicit-function-return-type": Array [
       "off",
     ],
@@ -114,9 +118,6 @@ Object {
         "allowDestructuring": true,
       },
     ],
-    "@typescript-eslint/no-triple-slash-reference": Array [
-      "error",
-    ],
     "@typescript-eslint/no-unused-vars": Array [
       "error",
     ],
@@ -124,9 +125,6 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-var-requires": Array [
-      "error",
-    ],
-    "@typescript-eslint/prefer-interface": Array [
       "error",
     ],
     "@typescript-eslint/prefer-namespace-keyword": Array [
