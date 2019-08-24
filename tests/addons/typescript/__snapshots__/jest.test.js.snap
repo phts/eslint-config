@@ -44,9 +44,6 @@ Object {
     "@typescript-eslint/explicit-member-accessibility": Array [
       "off",
     ],
-    "@typescript-eslint/generic-type-naming": Array [
-      "off",
-    ],
     "@typescript-eslint/indent": Array [
       "error",
       2,
@@ -65,9 +62,6 @@ Object {
           "requireLast": false,
         },
       },
-    ],
-    "@typescript-eslint/member-naming": Array [
-      "off",
     ],
     "@typescript-eslint/member-ordering": Array [
       "error",
@@ -113,12 +107,6 @@ Object {
     ],
     "@typescript-eslint/no-triple-slash-reference": Array [
       "error",
-    ],
-    "@typescript-eslint/no-type-alias": Array [
-      "off",
-    ],
-    "@typescript-eslint/no-unnecessary-type-assertion": Array [
-      "off",
     ],
     "@typescript-eslint/no-unused-vars": Array [
       "error",
@@ -555,6 +543,9 @@ Object {
       "error",
     ],
     "no-unused-vars": Array [
+      "off",
+    ],
+    "no-use-before-define": Array [
       "off",
     ],
     "no-useless-call": Array [
