@@ -12,13 +12,19 @@ module.exports = {
     es6: true,
   },
   rules: {
+    indent: 'off',
     'no-extra-parens': 'off',
     'import/named': 'off',
 
-    '@typescript-eslint/array-type': ['error', 'array-simple'],
+    '@typescript-eslint/array-type': ['error', {default: 'array-simple'}],
+    '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/camelcase': basic.rules.camelcase,
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/consistent-type-assertions': [
+      'error',
+      {assertionStyle: 'as', objectLiteralTypeAssertions: 'allow-as-parameter'},
+    ],
     '@typescript-eslint/indent': basic.rules.indent,
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/member-delimiter-style': [

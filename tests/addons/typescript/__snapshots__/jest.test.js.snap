@@ -27,7 +27,12 @@ Object {
     ],
     "@typescript-eslint/array-type": Array [
       "error",
-      "array-simple",
+      Object {
+        "default": "array-simple",
+      },
+    ],
+    "@typescript-eslint/ban-ts-ignore": Array [
+      "off",
     ],
     "@typescript-eslint/ban-types": Array [
       "error",
@@ -37,6 +42,13 @@ Object {
     ],
     "@typescript-eslint/class-name-casing": Array [
       "error",
+    ],
+    "@typescript-eslint/consistent-type-assertions": Array [
+      "error",
+      Object {
+        "assertionStyle": "as",
+        "objectLiteralTypeAssertions": "allow-as-parameter",
+      },
     ],
     "@typescript-eslint/explicit-function-return-type": Array [
       "off",
@@ -66,10 +78,10 @@ Object {
     "@typescript-eslint/member-ordering": Array [
       "error",
     ],
-    "@typescript-eslint/no-angle-bracket-type-assertion": Array [
+    "@typescript-eslint/no-array-constructor": Array [
       "error",
     ],
-    "@typescript-eslint/no-array-constructor": Array [
+    "@typescript-eslint/no-empty-function": Array [
       "error",
     ],
     "@typescript-eslint/no-empty-interface": Array [
@@ -92,9 +104,6 @@ Object {
     ],
     "@typescript-eslint/no-non-null-assertion": Array [
       "off",
-    ],
-    "@typescript-eslint/no-object-literal-type-assertion": Array [
-      "error",
     ],
     "@typescript-eslint/no-parameter-properties": Array [
       "off",
@@ -124,6 +133,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/restrict-plus-operands": Array [
+      "error",
+    ],
+    "@typescript-eslint/triple-slash-reference": Array [
       "error",
     ],
     "@typescript-eslint/type-annotation-spacing": Array [
@@ -385,6 +397,9 @@ Object {
     "no-empty-character-class": Array [
       "error",
     ],
+    "no-empty-function": Array [
+      "off",
+    ],
     "no-empty-pattern": Array [
       "error",
     ],
@@ -598,6 +613,12 @@ Object {
       "never",
     ],
     "prefer-const": Array [
+      "error",
+    ],
+    "prefer-rest-params": Array [
+      "error",
+    ],
+    "prefer-spread": Array [
       "error",
     ],
     "quote-props": Array [
