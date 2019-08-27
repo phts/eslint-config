@@ -1,8 +1,9 @@
 # @phts/eslint-config
 
+[![GitHub Actions](https://github.com/phts/eslint-config/workflows/Node%20CI/badge.svg)](https://github.com/phts/eslint-config)
 [![npm](https://img.shields.io/npm/v/@phts/eslint-config.svg)](https://www.npmjs.com/package/@phts/eslint-config)
 
-My ESLint config.
+My config for ESLint.
 
 ## Install
 
