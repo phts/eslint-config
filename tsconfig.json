@@ -1,26 +1,12 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "alwaysStrict": true,
-    "baseUrl": ".",
-    "experimentalDecorators": true,
     "jsx": "react",
     "module": "es6",
     "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "sourceMap": true,
+    "strict": true,
     "target": "es6"
   },
-  "include": [
-    "playground/**/*.ts",
-    "playground/**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["playground/**/*.ts", "playground/**/*.tsx"]
 }
