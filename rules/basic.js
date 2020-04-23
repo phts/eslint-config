@@ -82,7 +82,7 @@ module.exports = {
     'padded-blocks': ['error', 'never'],
     'prefer-const': 'error',
     'quote-props': ['error', 'as-needed'],
-    quotes: ['error', 'single', {avoidEscape: true}],
+    quotes: ['error', 'single', {avoidEscape: true, allowTemplateLiterals: false}],
     'rest-spread-spacing': 'error',
     semi: ['error', 'never'],
     'semi-spacing': 'error',

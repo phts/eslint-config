@@ -567,6 +567,7 @@ Object {
       "error",
       "single",
       Object {
+        "allowTemplateLiterals": false,
         "avoidEscape": true,
       },
     ],
@@ -1203,6 +1204,7 @@ Object {
       "error",
       "single",
       Object {
+        "allowTemplateLiterals": false,
         "avoidEscape": true,
       },
     ],

@@ -568,6 +568,7 @@ Object {
       "error",
       "single",
       Object {
+        "allowTemplateLiterals": false,
         "avoidEscape": true,
       },
     ],

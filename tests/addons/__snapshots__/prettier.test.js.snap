@@ -531,6 +531,7 @@ Object {
       0,
       "single",
       Object {
+        "allowTemplateLiterals": false,
         "avoidEscape": true,
       },
     ],
