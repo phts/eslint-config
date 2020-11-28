@@ -6,14 +6,14 @@ function getCli(config) {
   return new CLIEngine({
     baseConfig: {
       ...config,
-      extends: config.extends.map(x => `../${x}`).map(require.resolve),
+      extends: config.extends.map((x) => `../${x}`).map(require.resolve),
     },
     useEslintrc: false,
   })
 }
 
 function expectAllSame(arr) {
-  arr.forEach(x => expect(x).toEqual(arr[0]))
+  arr.forEach((x) => expect(x).toEqual(arr[0]))
 }
 
 function expectConfigsToMatchSnapshot(configs) {
@@ -29,7 +29,7 @@ function itGeneratesCorrectConfig(opts) {
     const cli = getCli({
       extends: opts.extends,
     })
-    const configs = opts.files.map(x => cli.getConfigForFile(x))
+    const configs = opts.files.map((x) => cli.getConfigForFile(x))
     expectAllSame(configs)
     expectConfigsToMatchSnapshot(configs)
   })
