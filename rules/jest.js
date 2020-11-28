@@ -10,7 +10,6 @@ module.exports = {
     'jest/no-alias-methods': 'error',
     'jest/no-commented-out-tests': 'error',
     'jest/no-disabled-tests': 'error',
-    'jest/no-empty-title': 'error',
     'jest/no-jasmine-globals': 'error',
     'jest/no-mocks-import': 'error',
     'jest/prefer-to-be-null': 'error',

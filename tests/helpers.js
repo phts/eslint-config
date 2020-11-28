@@ -25,6 +25,7 @@ function expectConfigsToMatchSnapshot(configs) {
 }
 
 function itGeneratesCorrectConfig(opts) {
+  // eslint-disable-next-line jest/expect-expect
   it(`generates correct config for ${opts.for} files`, () => {
     const cli = getCli({
       extends: opts.extends,
@@ -35,6 +36,7 @@ function itGeneratesCorrectConfig(opts) {
   })
 }
 
+// eslint-disable-next-line jest/no-export
 module.exports = {
   expectAllSame,
   expectConfigsToMatchSnapshot,

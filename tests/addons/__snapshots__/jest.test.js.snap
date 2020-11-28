@@ -127,22 +127,37 @@ Object {
         "fn": "it",
       },
     ],
+    "jest/expect-expect": Array [
+      "warn",
+    ],
     "jest/no-alias-methods": Array [
       "error",
     ],
     "jest/no-commented-out-tests": Array [
       "error",
     ],
+    "jest/no-conditional-expect": Array [
+      "error",
+    ],
+    "jest/no-deprecated-functions": Array [
+      "error",
+    ],
     "jest/no-disabled-tests": Array [
       "error",
     ],
-    "jest/no-empty-title": Array [
+    "jest/no-done-callback": Array [
+      "error",
+    ],
+    "jest/no-export": Array [
       "error",
     ],
     "jest/no-focused-tests": Array [
       "error",
     ],
     "jest/no-identical-title": Array [
+      "error",
+    ],
+    "jest/no-interpolation-in-snapshots": Array [
       "error",
     ],
     "jest/no-jasmine-globals": Array [
@@ -154,7 +169,13 @@ Object {
     "jest/no-mocks-import": Array [
       "error",
     ],
+    "jest/no-standalone-expect": Array [
+      "error",
+    ],
     "jest/no-test-prefixes": Array [
+      "error",
+    ],
+    "jest/no-try-expect": Array [
       "error",
     ],
     "jest/prefer-to-be-null": Array [
@@ -176,6 +197,9 @@ Object {
       "error",
     ],
     "jest/valid-expect-in-promise": Array [
+      "error",
+    ],
+    "jest/valid-title": Array [
       "error",
     ],
     "jsx-quotes": Array [
