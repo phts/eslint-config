@@ -6,6 +6,9 @@ Object {
     "es6": true,
   },
   "globals": Object {},
+  "ignorePatterns": Array [
+    "playground/",
+  ],
   "noInlineConfig": undefined,
   "parser": null,
   "parserOptions": Object {
@@ -15,6 +18,7 @@ Object {
     "eslint-comments",
     "import",
   ],
+  "reportUnusedDisableDirectives": undefined,
   "rules": Object {
     "accessor-pairs": Array [
       "error",
@@ -200,6 +204,9 @@ Object {
     "no-dupe-class-members": Array [
       "error",
     ],
+    "no-dupe-else-if": Array [
+      "error",
+    ],
     "no-dupe-keys": Array [
       "error",
     ],
@@ -253,6 +260,9 @@ Object {
       "error",
     ],
     "no-implied-eval": Array [
+      "error",
+    ],
+    "no-import-assign": Array [
       "error",
     ],
     "no-inner-declarations": Array [
@@ -325,6 +335,9 @@ Object {
       "error",
     ],
     "no-sequences": Array [
+      "error",
+    ],
+    "no-setter-return": Array [
       "error",
     ],
     "no-shadow-restricted-names": Array [
@@ -438,9 +451,6 @@ Object {
         "allowTemplateLiterals": false,
         "avoidEscape": true,
       },
-    ],
-    "require-atomic-updates": Array [
-      "error",
     ],
     "require-yield": Array [
       "error",

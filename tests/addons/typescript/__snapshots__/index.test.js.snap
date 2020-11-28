@@ -6,8 +6,11 @@ Object {
     "es6": true,
   },
   "globals": Object {},
+  "ignorePatterns": Array [
+    "playground/",
+  ],
   "noInlineConfig": undefined,
-  "parser": "node_modules/@typescript-eslint/parser/dist/parser.js",
+  "parser": "node_modules/@typescript-eslint/parser/dist/index.js",
   "parserOptions": Object {
     "project": "./tsconfig.json",
     "sourceType": "module",
@@ -18,6 +21,7 @@ Object {
     "import",
     "@typescript-eslint",
   ],
+  "reportUnusedDisableDirectives": undefined,
   "rules": Object {
     "@typescript-eslint/adjacent-overload-signatures": Array [
       "error",
@@ -28,6 +32,9 @@ Object {
         "default": "array-simple",
       },
     ],
+    "@typescript-eslint/ban-ts-comment": Array [
+      "error",
+    ],
     "@typescript-eslint/ban-ts-ignore": Array [
       "off",
     ],
@@ -35,9 +42,6 @@ Object {
       "error",
     ],
     "@typescript-eslint/camelcase": Array [
-      "error",
-    ],
-    "@typescript-eslint/class-name-casing": Array [
       "error",
     ],
     "@typescript-eslint/consistent-type-assertions": Array [
@@ -56,6 +60,9 @@ Object {
     ],
     "@typescript-eslint/explicit-member-accessibility": Array [
       "off",
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": Array [
+      "warn",
     ],
     "@typescript-eslint/indent": Array [
       "error",
@@ -91,6 +98,12 @@ Object {
     "@typescript-eslint/no-explicit-any": Array [
       "error",
     ],
+    "@typescript-eslint/no-extra-non-null-assertion": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-extra-semi": Array [
+      "error",
+    ],
     "@typescript-eslint/no-extraneous-class": Array [
       "error",
     ],
@@ -101,6 +114,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-namespace": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-non-null-asserted-optional-chain": Array [
       "error",
     ],
     "@typescript-eslint/no-non-null-assertion": Array [
@@ -118,10 +134,10 @@ Object {
     "@typescript-eslint/no-unused-vars": Array [
       "error",
     ],
-    "@typescript-eslint/no-use-before-define": Array [
+    "@typescript-eslint/no-var-requires": Array [
       "error",
     ],
-    "@typescript-eslint/no-var-requires": Array [
+    "@typescript-eslint/prefer-as-const": Array [
       "error",
     ],
     "@typescript-eslint/prefer-namespace-keyword": Array [
@@ -131,9 +147,6 @@ Object {
       "error",
     ],
     "@typescript-eslint/triple-slash-reference": Array [
-      "error",
-    ],
-    "@typescript-eslint/type-annotation-spacing": Array [
       "error",
     ],
     "accessor-pairs": Array [
@@ -146,7 +159,7 @@ Object {
       "error",
     ],
     "camelcase": Array [
-      "off",
+      "error",
     ],
     "comma-dangle": Array [
       "error",
@@ -159,7 +172,7 @@ Object {
       "error",
     ],
     "constructor-super": Array [
-      "error",
+      "off",
     ],
     "curly": Array [
       "error",
@@ -202,7 +215,7 @@ Object {
       "error",
     ],
     "getter-return": Array [
-      "error",
+      "off",
     ],
     "import/export": Array [
       "error",
@@ -300,7 +313,7 @@ Object {
       },
     ],
     "no-const-assign": Array [
-      "error",
+      "off",
     ],
     "no-constant-condition": Array [
       "error",
@@ -315,13 +328,16 @@ Object {
       "error",
     ],
     "no-dupe-args": Array [
-      "error",
+      "off",
     ],
     "no-dupe-class-members": Array [
+      "off",
+    ],
+    "no-dupe-else-if": Array [
       "error",
     ],
     "no-dupe-keys": Array [
-      "error",
+      "off",
     ],
     "no-duplicate-case": Array [
       "error",
@@ -361,7 +377,7 @@ Object {
       },
     ],
     "no-extra-semi": Array [
-      "error",
+      "off",
     ],
     "no-fallthrough": Array [
       "error",
@@ -370,13 +386,16 @@ Object {
       "error",
     ],
     "no-func-assign": Array [
-      "error",
+      "off",
     ],
     "no-global-assign": Array [
       "error",
     ],
     "no-implied-eval": Array [
       "error",
+    ],
+    "no-import-assign": Array [
+      "off",
     ],
     "no-inner-declarations": Array [
       "error",
@@ -412,10 +431,10 @@ Object {
       "error",
     ],
     "no-new-symbol": Array [
-      "error",
+      "off",
     ],
     "no-obj-calls": Array [
-      "error",
+      "off",
     ],
     "no-octal": Array [
       "error",
@@ -430,7 +449,7 @@ Object {
       "error",
     ],
     "no-redeclare": Array [
-      "error",
+      "off",
     ],
     "no-regex-spaces": Array [
       "error",
@@ -450,6 +469,9 @@ Object {
     "no-sequences": Array [
       "error",
     ],
+    "no-setter-return": Array [
+      "off",
+    ],
     "no-shadow-restricted-names": Array [
       "error",
     ],
@@ -460,7 +482,7 @@ Object {
       "error",
     ],
     "no-this-before-super": Array [
-      "error",
+      "off",
     ],
     "no-throw-literal": Array [
       "error",
@@ -469,7 +491,7 @@ Object {
       "error",
     ],
     "no-undef": Array [
-      "error",
+      "off",
     ],
     "no-undef-init": Array [
       "error",
@@ -484,21 +506,18 @@ Object {
       "error",
     ],
     "no-unreachable": Array [
-      "error",
+      "off",
     ],
     "no-unsafe-finally": Array [
       "error",
     ],
     "no-unsafe-negation": Array [
-      "error",
+      "off",
     ],
     "no-unused-labels": Array [
       "error",
     ],
     "no-unused-vars": Array [
-      "off",
-    ],
-    "no-use-before-define": Array [
       "off",
     ],
     "no-useless-call": Array [
@@ -571,9 +590,6 @@ Object {
         "avoidEscape": true,
       },
     ],
-    "require-atomic-updates": Array [
-      "error",
-    ],
     "require-yield": Array [
       "error",
     ],
@@ -620,7 +636,7 @@ Object {
       "error",
     ],
     "valid-typeof": Array [
-      "error",
+      "off",
     ],
     "wrap-iife": Array [
       "error",
@@ -643,8 +659,11 @@ Object {
     "es6": true,
   },
   "globals": Object {},
+  "ignorePatterns": Array [
+    "playground/",
+  ],
   "noInlineConfig": undefined,
-  "parser": "node_modules/@typescript-eslint/parser/dist/parser.js",
+  "parser": "node_modules/@typescript-eslint/parser/dist/index.js",
   "parserOptions": Object {
     "project": "./tsconfig.json",
     "sourceType": "module",
@@ -655,6 +674,7 @@ Object {
     "import",
     "@typescript-eslint",
   ],
+  "reportUnusedDisableDirectives": undefined,
   "rules": Object {
     "@typescript-eslint/adjacent-overload-signatures": Array [
       "error",
@@ -665,6 +685,9 @@ Object {
         "default": "array-simple",
       },
     ],
+    "@typescript-eslint/ban-ts-comment": Array [
+      "error",
+    ],
     "@typescript-eslint/ban-ts-ignore": Array [
       "off",
     ],
@@ -672,9 +695,6 @@ Object {
       "error",
     ],
     "@typescript-eslint/camelcase": Array [
-      "error",
-    ],
-    "@typescript-eslint/class-name-casing": Array [
       "error",
     ],
     "@typescript-eslint/consistent-type-assertions": Array [
@@ -693,6 +713,9 @@ Object {
     ],
     "@typescript-eslint/explicit-member-accessibility": Array [
       "off",
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": Array [
+      "warn",
     ],
     "@typescript-eslint/indent": Array [
       "error",
@@ -728,6 +751,12 @@ Object {
     "@typescript-eslint/no-explicit-any": Array [
       "off",
     ],
+    "@typescript-eslint/no-extra-non-null-assertion": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-extra-semi": Array [
+      "error",
+    ],
     "@typescript-eslint/no-extraneous-class": Array [
       "error",
     ],
@@ -738,6 +767,9 @@ Object {
       "error",
     ],
     "@typescript-eslint/no-namespace": Array [
+      "error",
+    ],
+    "@typescript-eslint/no-non-null-asserted-optional-chain": Array [
       "error",
     ],
     "@typescript-eslint/no-non-null-assertion": Array [
@@ -755,10 +787,10 @@ Object {
     "@typescript-eslint/no-unused-vars": Array [
       "error",
     ],
-    "@typescript-eslint/no-use-before-define": Array [
+    "@typescript-eslint/no-var-requires": Array [
       "error",
     ],
-    "@typescript-eslint/no-var-requires": Array [
+    "@typescript-eslint/prefer-as-const": Array [
       "error",
     ],
     "@typescript-eslint/prefer-namespace-keyword": Array [
@@ -768,9 +800,6 @@ Object {
       "error",
     ],
     "@typescript-eslint/triple-slash-reference": Array [
-      "error",
-    ],
-    "@typescript-eslint/type-annotation-spacing": Array [
       "error",
     ],
     "accessor-pairs": Array [
@@ -783,7 +812,7 @@ Object {
       "error",
     ],
     "camelcase": Array [
-      "off",
+      "error",
     ],
     "comma-dangle": Array [
       "error",
@@ -796,7 +825,7 @@ Object {
       "error",
     ],
     "constructor-super": Array [
-      "error",
+      "off",
     ],
     "curly": Array [
       "error",
@@ -839,7 +868,7 @@ Object {
       "error",
     ],
     "getter-return": Array [
-      "error",
+      "off",
     ],
     "import/export": Array [
       "error",
@@ -937,7 +966,7 @@ Object {
       },
     ],
     "no-const-assign": Array [
-      "error",
+      "off",
     ],
     "no-constant-condition": Array [
       "error",
@@ -952,13 +981,16 @@ Object {
       "error",
     ],
     "no-dupe-args": Array [
-      "error",
+      "off",
     ],
     "no-dupe-class-members": Array [
+      "off",
+    ],
+    "no-dupe-else-if": Array [
       "error",
     ],
     "no-dupe-keys": Array [
-      "error",
+      "off",
     ],
     "no-duplicate-case": Array [
       "error",
@@ -998,7 +1030,7 @@ Object {
       },
     ],
     "no-extra-semi": Array [
-      "error",
+      "off",
     ],
     "no-fallthrough": Array [
       "error",
@@ -1007,13 +1039,16 @@ Object {
       "error",
     ],
     "no-func-assign": Array [
-      "error",
+      "off",
     ],
     "no-global-assign": Array [
       "error",
     ],
     "no-implied-eval": Array [
       "error",
+    ],
+    "no-import-assign": Array [
+      "off",
     ],
     "no-inner-declarations": Array [
       "error",
@@ -1049,10 +1084,10 @@ Object {
       "error",
     ],
     "no-new-symbol": Array [
-      "error",
+      "off",
     ],
     "no-obj-calls": Array [
-      "error",
+      "off",
     ],
     "no-octal": Array [
       "error",
@@ -1067,7 +1102,7 @@ Object {
       "error",
     ],
     "no-redeclare": Array [
-      "error",
+      "off",
     ],
     "no-regex-spaces": Array [
       "error",
@@ -1087,6 +1122,9 @@ Object {
     "no-sequences": Array [
       "error",
     ],
+    "no-setter-return": Array [
+      "off",
+    ],
     "no-shadow-restricted-names": Array [
       "error",
     ],
@@ -1097,7 +1135,7 @@ Object {
       "error",
     ],
     "no-this-before-super": Array [
-      "error",
+      "off",
     ],
     "no-throw-literal": Array [
       "error",
@@ -1106,7 +1144,7 @@ Object {
       "error",
     ],
     "no-undef": Array [
-      "error",
+      "off",
     ],
     "no-undef-init": Array [
       "error",
@@ -1121,21 +1159,18 @@ Object {
       "error",
     ],
     "no-unreachable": Array [
-      "error",
+      "off",
     ],
     "no-unsafe-finally": Array [
       "error",
     ],
     "no-unsafe-negation": Array [
-      "error",
+      "off",
     ],
     "no-unused-labels": Array [
       "error",
     ],
     "no-unused-vars": Array [
-      "off",
-    ],
-    "no-use-before-define": Array [
       "off",
     ],
     "no-useless-call": Array [
@@ -1208,9 +1243,6 @@ Object {
         "avoidEscape": true,
       },
     ],
-    "require-atomic-updates": Array [
-      "error",
-    ],
     "require-yield": Array [
       "error",
     ],
@@ -1257,7 +1289,7 @@ Object {
       "error",
     ],
     "valid-typeof": Array [
-      "error",
+      "off",
     ],
     "wrap-iife": Array [
       "error",
