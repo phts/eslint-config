@@ -41,9 +41,6 @@ Object {
     "@typescript-eslint/ban-types": Array [
       "error",
     ],
-    "@typescript-eslint/camelcase": Array [
-      "error",
-    ],
     "@typescript-eslint/consistent-type-assertions": Array [
       "error",
       Object {
@@ -67,9 +64,6 @@ Object {
     "@typescript-eslint/indent": Array [
       "error",
       2,
-    ],
-    "@typescript-eslint/interface-name-prefix": Array [
-      "off",
     ],
     "@typescript-eslint/member-delimiter-style": Array [
       "error",
@@ -694,9 +688,6 @@ Object {
     "@typescript-eslint/ban-types": Array [
       "error",
     ],
-    "@typescript-eslint/camelcase": Array [
-      "error",
-    ],
     "@typescript-eslint/consistent-type-assertions": Array [
       "error",
       Object {
@@ -720,9 +711,6 @@ Object {
     "@typescript-eslint/indent": Array [
       "error",
       2,
-    ],
-    "@typescript-eslint/interface-name-prefix": Array [
-      "off",
     ],
     "@typescript-eslint/member-delimiter-style": Array [
       "error",

@@ -18,7 +18,6 @@ module.exports = {
 
     '@typescript-eslint/array-type': ['error', {default: 'array-simple'}],
     '@typescript-eslint/ban-ts-ignore': 'off',
-    '@typescript-eslint/camelcase': basic.rules.camelcase,
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
@@ -27,7 +26,6 @@ module.exports = {
       {assertionStyle: 'as', objectLiteralTypeAssertions: 'allow-as-parameter'},
     ],
     '@typescript-eslint/indent': basic.rules.indent,
-    '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/member-delimiter-style': [
       'error',
       {
