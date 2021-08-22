@@ -519,6 +519,9 @@ Object {
     "no-unused-vars": Array [
       "off",
     ],
+    "no-use-before-define": Array [
+      "error",
+    ],
     "no-useless-call": Array [
       "error",
     ],

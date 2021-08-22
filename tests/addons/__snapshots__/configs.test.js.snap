@@ -390,6 +390,9 @@ Object {
     "no-unused-vars": Array [
       "error",
     ],
+    "no-use-before-define": Array [
+      "error",
+    ],
     "no-useless-call": Array [
       "error",
     ],
@@ -905,6 +908,9 @@ Object {
       "error",
     ],
     "no-unused-vars": Array [
+      "error",
+    ],
+    "no-use-before-define": Array [
       "error",
     ],
     "no-useless-call": Array [
