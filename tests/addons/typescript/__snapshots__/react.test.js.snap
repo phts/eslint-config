@@ -63,9 +63,6 @@ Object {
     "@typescript-eslint/explicit-member-accessibility": Array [
       "off",
     ],
-    "@typescript-eslint/explicit-module-boundary-types": Array [
-      "warn",
-    ],
     "@typescript-eslint/indent": Array [
       "error",
       2,
@@ -109,6 +106,9 @@ Object {
     "@typescript-eslint/no-inferrable-types": Array [
       "error",
     ],
+    "@typescript-eslint/no-loss-of-precision": Array [
+      "error",
+    ],
     "@typescript-eslint/no-misused-new": Array [
       "error",
     ],
@@ -129,6 +129,9 @@ Object {
       Object {
         "allowDestructuring": true,
       },
+    ],
+    "@typescript-eslint/no-unnecessary-type-constraint": Array [
+      "error",
     ],
     "@typescript-eslint/no-unused-vars": Array [
       "error",
@@ -414,6 +417,9 @@ Object {
     "no-lone-blocks": Array [
       "error",
     ],
+    "no-loss-of-precision": Array [
+      "off",
+    ],
     "no-misleading-character-class": Array [
       "error",
     ],
@@ -431,6 +437,9 @@ Object {
     ],
     "no-new-symbol": Array [
       "off",
+    ],
+    "no-nonoctal-decimal-escape": Array [
+      "error",
     ],
     "no-obj-calls": Array [
       "off",
@@ -513,6 +522,9 @@ Object {
     "no-unsafe-negation": Array [
       "off",
     ],
+    "no-unsafe-optional-chaining": Array [
+      "error",
+    ],
     "no-unused-labels": Array [
       "error",
     ],
@@ -520,6 +532,9 @@ Object {
       "off",
     ],
     "no-use-before-define": Array [
+      "error",
+    ],
+    "no-useless-backreference": Array [
       "error",
     ],
     "no-useless-call": Array [

@@ -283,6 +283,9 @@ Object {
     "no-lone-blocks": Array [
       "error",
     ],
+    "no-loss-of-precision": Array [
+      "error",
+    ],
     "no-misleading-character-class": Array [
       "error",
     ],
@@ -299,6 +302,9 @@ Object {
       "error",
     ],
     "no-new-symbol": Array [
+      "error",
+    ],
+    "no-nonoctal-decimal-escape": Array [
       "error",
     ],
     "no-obj-calls": Array [
@@ -382,6 +388,9 @@ Object {
     "no-unsafe-negation": Array [
       "error",
     ],
+    "no-unsafe-optional-chaining": Array [
+      "error",
+    ],
     "no-unused-labels": Array [
       "error",
     ],
@@ -389,6 +398,9 @@ Object {
       "error",
     ],
     "no-use-before-define": Array [
+      "error",
+    ],
+    "no-useless-backreference": Array [
       "error",
     ],
     "no-useless-call": Array [

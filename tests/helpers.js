@@ -1,9 +1,9 @@
 'use strict'
 
-const CLIEngine = require('eslint').CLIEngine
+const ESLint = require('eslint').ESLint
 
-function getCli(config) {
-  return new CLIEngine({
+function getEslint(config) {
+  return new ESLint({
     baseConfig: {
       ...config,
       extends: config.extends.map((x) => `../${x}`).map(require.resolve),
@@ -26,11 +26,11 @@ function expectConfigsToMatchSnapshot(configs) {
 
 function itGeneratesCorrectConfig(opts) {
   // eslint-disable-next-line jest/expect-expect
-  it(`generates correct config for ${opts.for} files`, () => {
-    const cli = getCli({
+  it(`generates correct config for ${opts.for} files`, async () => {
+    const eslint = getEslint({
       extends: opts.extends,
     })
-    const configs = opts.files.map((x) => cli.getConfigForFile(x))
+    const configs = await Promise.all(opts.files.map((x) => eslint.calculateConfigForFile(x)))
     expectAllSame(configs)
     expectConfigsToMatchSnapshot(configs)
   })
@@ -40,6 +40,5 @@ function itGeneratesCorrectConfig(opts) {
 module.exports = {
   expectAllSame,
   expectConfigsToMatchSnapshot,
-  getCli,
   itGeneratesCorrectConfig,
 }
