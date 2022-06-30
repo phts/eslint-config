@@ -80,6 +80,17 @@ SublimeText project:
 }
 ```
 
+VS Code workspace:
+
+```json
+{
+  "settings": {
+    // ...
+    "eslint.validate": ["typescript", "typescriptreact"]
+  }
+}
+```
+
 ### Other addons
 
 <table>
