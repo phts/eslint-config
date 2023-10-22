@@ -26,9 +26,6 @@ exports[`addons/typescript/jest generates correct config for test and mock files
   ],
   "reportUnusedDisableDirectives": undefined,
   "rules": {
-    "@typescript-eslint/adjacent-overload-signatures": [
-      "error",
-    ],
     "@typescript-eslint/array-type": [
       "error",
       {
@@ -83,7 +80,7 @@ exports[`addons/typescript/jest generates correct config for test and mock files
     "@typescript-eslint/no-array-constructor": [
       "error",
     ],
-    "@typescript-eslint/no-empty-function": [
+    "@typescript-eslint/no-duplicate-enum-values": [
       "error",
     ],
     "@typescript-eslint/no-empty-interface": [
@@ -95,13 +92,7 @@ exports[`addons/typescript/jest generates correct config for test and mock files
     "@typescript-eslint/no-extra-non-null-assertion": [
       "error",
     ],
-    "@typescript-eslint/no-extra-semi": [
-      "error",
-    ],
     "@typescript-eslint/no-extraneous-class": [
-      "error",
-    ],
-    "@typescript-eslint/no-inferrable-types": [
       "error",
     ],
     "@typescript-eslint/no-loss-of-precision": [
@@ -131,6 +122,9 @@ exports[`addons/typescript/jest generates correct config for test and mock files
     "@typescript-eslint/no-unnecessary-type-constraint": [
       "error",
     ],
+    "@typescript-eslint/no-unsafe-declaration-merging": [
+      "error",
+    ],
     "@typescript-eslint/no-unused-vars": [
       "error",
     ],
@@ -138,9 +132,6 @@ exports[`addons/typescript/jest generates correct config for test and mock files
       "error",
     ],
     "@typescript-eslint/prefer-as-const": [
-      "error",
-    ],
-    "@typescript-eslint/prefer-namespace-keyword": [
       "error",
     ],
     "@typescript-eslint/restrict-plus-operands": [
@@ -420,9 +411,6 @@ exports[`addons/typescript/jest generates correct config for test and mock files
     "no-empty-character-class": [
       "error",
     ],
-    "no-empty-function": [
-      "off",
-    ],
     "no-empty-pattern": [
       "error",
     ],
@@ -446,7 +434,7 @@ exports[`addons/typescript/jest generates correct config for test and mock files
       },
     ],
     "no-extra-semi": [
-      "off",
+      "error",
     ],
     "no-fallthrough": [
       "error",
@@ -720,7 +708,7 @@ exports[`addons/typescript/jest generates correct config for test and mock files
       "error",
     ],
     "valid-typeof": [
-      "off",
+      "error",
     ],
     "wrap-iife": [
       "error",
