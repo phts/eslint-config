@@ -4,6 +4,7 @@
   "description": "My config for ESLint.",
   "main": "index.js",
   "scripts": {
+    "format": "eslint . --fix && prettier --write **/*.{md,json}",
     "lint": "eslint .",
     "lint:playground": "eslint --no-ignore --ext .js,.jsx,.ts,.tsx .",
     "preversion": "npm run lint && npm test",
