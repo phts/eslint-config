@@ -3,6 +3,11 @@
   "version": "2.1.0",
   "description": "My config for ESLint.",
   "main": "index.js",
+  "files": [
+    "addons/",
+    "rules/",
+    "index.js"
+  ],
   "scripts": {
     "format": "eslint . --fix && prettier --write **/*.{md,json}",
     "lint": "eslint .",

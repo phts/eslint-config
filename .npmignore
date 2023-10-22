@@ -1,9 +1,0 @@
-playground/
-tests/
-
-.*
-*.tgz
-*.sublime-*
-
-jest.config.json
-tsconfig.json
