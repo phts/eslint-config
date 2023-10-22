@@ -23,6 +23,9 @@ Object {
     "@babel/semi": Array [
       "off",
     ],
+    "@typescript-eslint/block-spacing": Array [
+      "off",
+    ],
     "@typescript-eslint/brace-style": Array [
       "off",
     ],
@@ -38,8 +41,14 @@ Object {
     "@typescript-eslint/indent": Array [
       "off",
     ],
+    "@typescript-eslint/key-spacing": Array [
+      "off",
+    ],
     "@typescript-eslint/keyword-spacing": Array [
       "off",
+    ],
+    "@typescript-eslint/lines-around-comment": Array [
+      0,
     ],
     "@typescript-eslint/member-delimiter-style": Array [
       "off",
@@ -283,6 +292,9 @@ Object {
       Object {
         "code": 100,
       },
+    ],
+    "max-statements-per-line": Array [
+      "off",
     ],
     "multiline-ternary": Array [
       "off",
@@ -782,9 +794,6 @@ Object {
     "template-tag-spacing": Array [
       "off",
     ],
-    "unicode-bom": Array [
-      "off",
-    ],
     "unicorn/empty-brace-spaces": Array [
       "off",
     ],
@@ -804,6 +813,9 @@ Object {
       "off",
     ],
     "vue/array-bracket-spacing": Array [
+      "off",
+    ],
+    "vue/array-element-newline": Array [
       "off",
     ],
     "vue/arrow-spacing": Array [
@@ -864,6 +876,9 @@ Object {
       0,
     ],
     "vue/multiline-html-element-content-newline": Array [
+      "off",
+    ],
+    "vue/multiline-ternary": Array [
       "off",
     ],
     "vue/mustache-interpolation-spacing": Array [
