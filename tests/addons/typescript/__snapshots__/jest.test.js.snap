@@ -151,6 +151,12 @@ exports[`addons/typescript/jest generates correct config for test and mock files
     ],
     "camelcase": [
       "error",
+      {
+        "ignoreDestructuring": true,
+        "ignoreGlobals": true,
+        "ignoreImports": true,
+        "properties": "never",
+      },
     ],
     "comma-dangle": [
       "error",

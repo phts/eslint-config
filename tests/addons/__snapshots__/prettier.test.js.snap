@@ -118,6 +118,12 @@ exports[`addons/prettier generates correct config for *.{js,jsx,ts,tsx} files 1`
     ],
     "camelcase": [
       "error",
+      {
+        "ignoreDestructuring": true,
+        "ignoreGlobals": true,
+        "ignoreImports": true,
+        "properties": "never",
+      },
     ],
     "comma-dangle": [
       "off",

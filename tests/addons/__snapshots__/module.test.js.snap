@@ -31,6 +31,12 @@ exports[`addons/module generates correct config for src/**/*.js files 1`] = `
     ],
     "camelcase": [
       "error",
+      {
+        "ignoreDestructuring": true,
+        "ignoreGlobals": true,
+        "ignoreImports": true,
+        "properties": "never",
+      },
     ],
     "comma-dangle": [
       "error",

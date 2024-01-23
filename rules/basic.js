@@ -24,7 +24,7 @@ module.exports = {
     'accessor-pairs': 'error',
     'array-bracket-spacing': 'error',
     'brace-style': 'error',
-    camelcase: 'error',
+    camelcase: ['error', {properties: 'never', ignoreDestructuring: true, ignoreImports: true, ignoreGlobals: true}],
     'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': 'error',
     'comma-style': 'error',

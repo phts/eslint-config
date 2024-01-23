@@ -153,6 +153,12 @@ exports[`addons/typescript/react generates correct config for src/**/*.{ts,tsx} 
     ],
     "camelcase": [
       "error",
+      {
+        "ignoreDestructuring": true,
+        "ignoreGlobals": true,
+        "ignoreImports": true,
+        "properties": "never",
+      },
     ],
     "comma-dangle": [
       "error",
