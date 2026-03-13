@@ -809,6 +809,9 @@ exports[`addons/prettier generates correct config for *.{js,jsx,ts,tsx} files 1`
     "unicorn/number-literal-case": [
       "off",
     ],
+    "unicorn/template-indent": [
+      0,
+    ],
     "use-isnan": [
       "error",
     ],
