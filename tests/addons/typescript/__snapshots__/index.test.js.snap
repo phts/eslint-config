@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`addons/typescript generates correct config for *.{ts,tsx} files 1`] = `
+exports[`addons/typescript generates correct config for *.{ts,tsx,mts} files 1`] = `
 {
   "env": {
     "es6": true,

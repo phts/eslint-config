@@ -3,7 +3,7 @@
 module.exports = {
   overrides: [
     {
-      files: '*.{ts,tsx}',
+      files: '*.{ts,tsx,mts}',
       extends: require.resolve('../../rules/typescript'),
     },
     {

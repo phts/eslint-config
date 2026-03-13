@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`addons/typescript/react generates correct config for src/**/*.{ts,tsx} files 1`] = `
+exports[`addons/typescript/react generates correct config for src/**/*.{ts,tsx,mts} files 1`] = `
 {
   "env": {
     "browser": true,

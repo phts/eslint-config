@@ -3,7 +3,7 @@
 module.exports = {
   overrides: [
     {
-      files: ['config/**/*.ts', '.*.ts', 'webpack.*.ts', '*.config.ts'],
+      files: ['config/**/*.{ts,mts}', '.*.{ts,mts}', 'webpack.*.{ts,mts}', '*.config.{ts,mts}'],
       extends: require.resolve('../../rules/typescript/node'),
     },
   ],

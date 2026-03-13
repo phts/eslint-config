@@ -5,8 +5,8 @@ const helpers = require('../../helpers')
 describe('addons/typescript', () => {
   helpers.itGeneratesCorrectConfig({
     extends: ['index', 'addons/typescript'],
-    files: ['target.ts', 'target.tsx', 'dir/target.ts', 'dir/target.tsx'],
-    for: '*.{ts,tsx}',
+    files: ['target.ts', 'target.tsx', 'target.mts', 'dir/target.ts', 'dir/target.tsx', 'dir/target.mts'],
+    for: '*.{ts,tsx,mts}',
   })
 
   helpers.itGeneratesCorrectConfig({
