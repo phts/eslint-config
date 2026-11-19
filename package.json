@@ -47,8 +47,8 @@
   "homepage": "https://github.com/phts/eslint-config#readme",
   "dependencies": {
     "@babel/eslint-parser": "^7.28.6",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "@typescript-eslint/eslint-plugin": "^8.73.0",
+    "@typescript-eslint/parser": "^8.73.0",
     "eslint-config-prettier": "^9.1.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.32.0",
